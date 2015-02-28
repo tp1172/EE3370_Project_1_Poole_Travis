@@ -7,7 +7,7 @@ clc      % Clear screen
 clear    % Clear all variables
 A = 3; f= 1000; omega = 2*pi*f; 
 angle = (33*pi)/180; T=1/f;
-t=linspace(-3*T,3*T,1000);
+t=linspace(-3000*T,3000*T,1000);
 x_t=3*cos(omega*t+angle);
 f_t=cos(omega*t).*sin(omega*t);
 subplot(4,1,1)
